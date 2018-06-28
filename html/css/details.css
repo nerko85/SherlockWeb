@@ -1,0 +1,113 @@
+@font-face {
+    font-family:'CaeciliaLT';
+    src: url('../fonts/CaeciliaLTStd-Roman/CaeciliaLTStd-Roman.eot');
+	src: url('../fonts/CaeciliaLTStd-Roman/CaeciliaLTStd-Roman.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/CaeciliaLTStd-Roman/CaeciliaLTStd-Roman.woff2') format('woff2'),
+		url('../fonts/CaeciliaLTStd-Roman/CaeciliaLTStd-Roman.woff') format('woff'),
+		url('../fonts/CaeciliaLTStd-Roman/CaeciliaLTStd-Roman.svg#CaeciliaLTStd-Roman') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FE;
+}
+
+@font-face {
+    font-family:'BasicGothicPro';
+    src: url('../fonts/BasicGothicPro/BasicGothicPro.eot');
+	src: url('../fonts/BasicGothicPro/BasicGothicPro.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/BasicGothicPro/BasicGothicPro.woff2') format('woff2'),
+		url('../fonts/BasicGothicPro/BasicGothicPro.woff') format('woff'),
+		url('../fonts/BasicGothicPro/BasicGothicPro.svg#BasicGothicPro') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FE;
+}
+
+@font-face {
+    font-family:'GiorgioSans';
+    src: url('../fonts/GiorgioSans/GiorgioSans-Regular.eot');
+	src: url('../fonts/GiorgioSans/GiorgioSans-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/GiorgioSans/GiorgioSans-Regular.woff2') format('woff2'),
+		url('../fonts/GiorgioSans/GiorgioSans-Regular.woff') format('woff'),
+		url('../fonts/GiorgioSans/GiorgioSans-Regular.svg#GiorgioSans-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FE;
+}
+
+.container {
+    width: 68% !important;
+    max-width: 1920px !important;
+}
+
+a {
+    color: #c49a6c;
+    font-family: CaeciliaLT;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: BasicGothicPro;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0;
+}
+
+/* h1 {
+    font-family: CaeciliaLT;
+    font-weight: 200 !important;
+    color: #c49a6c;
+    font-size: 48px;
+    line-height: 46px;
+} */
+
+.title {
+    font-family: CaeciliaLT;
+    color: #c49a6c;
+    font-size: 48px;
+    line-height: 46px;
+    margin-bottom: 30px;
+}
+
+.project-desc {
+    padding: 120px 0;
+}
+
+.details {
+    text-transform: uppercase;
+    color: #c49a6c;
+    font-family: CaeciliaLT;
+    font-size: 14px;
+    line-height: 36px;
+}
+
+.project-images {
+    overflow: hidden;
+}
+
+.project-images > div {
+    margin: 60px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.project-images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.footer a {
+    position: relative;
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.footer {
+    margin-bottom: 100px;
+}

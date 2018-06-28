@@ -1,0 +1,170 @@
+/* .fullHeight {
+    height: 100vh;
+    background: #1d1d1d;
+} */
+/* 
+.topBg {
+    background: url('../img/bg.jpg') no-repeat;
+    height: 50vh;
+    width: 100%;
+} */
+
+/* .proba {
+    display: grid;
+    grid-template-columns: 16% auto 16%;
+    grid-template-rows: 25% auto 25%;
+    background: red;
+} */
+
+@font-face {
+    font-family:'CaeciliaLT';
+    src: url('../fonts/CaeciliaLTStd-Roman/CaeciliaLTStd-Roman.eot');
+	src: url('../fonts/CaeciliaLTStd-Roman/CaeciliaLTStd-Roman.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/CaeciliaLTStd-Roman/CaeciliaLTStd-Roman.woff2') format('woff2'),
+		url('../fonts/CaeciliaLTStd-Roman/CaeciliaLTStd-Roman.woff') format('woff'),
+		url('../fonts/CaeciliaLTStd-Roman/CaeciliaLTStd-Roman.svg#CaeciliaLTStd-Roman') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FE;
+}
+
+@font-face {
+    font-family:'BasicGothicPro';
+    src: url('../fonts/BasicGothicPro/BasicGothicPro.eot');
+	src: url('../fonts/BasicGothicPro/BasicGothicPro.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/BasicGothicPro/BasicGothicPro.woff2') format('woff2'),
+		url('../fonts/BasicGothicPro/BasicGothicPro.woff') format('woff'),
+		url('../fonts/BasicGothicPro/BasicGothicPro.svg#BasicGothicPro') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FE;
+}
+
+@font-face {
+    font-family:'GiorgioSans';
+    src: url('../fonts/GiorgioSans/GiorgioSans-Regular.eot');
+	src: url('../fonts/GiorgioSans/GiorgioSans-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/GiorgioSans/GiorgioSans-Regular.woff2') format('woff2'),
+		url('../fonts/GiorgioSans/GiorgioSans-Regular.woff') format('woff'),
+		url('../fonts/GiorgioSans/GiorgioSans-Regular.svg#GiorgioSans-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FE;
+}
+
+a {
+    color: #c49a6c;
+}
+
+.heading {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    align-self: end;
+    font-family: CaeciliaLT;
+    color: #c49a6c;
+    font-size: 60px !important;
+    line-height: 64px;
+    margin-top: 0 !important;
+}
+
+.case-grid {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    display: -ms-grid;
+    background-color: #1d1d1d;
+    grid-template-columns: 16% auto 16%;
+    grid-template-rows: 16% 34% 34% 16%;
+  }
+  
+  .item-a {
+    grid-column-start: 1;
+    grid-column-end: 4 ;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .item-b {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background:url('../img/component-bg.jpg') no-repeat center;
+    display: grid;
+  }
+  
+  .item-c {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    display: grid;
+  }
+
+  .project-desc {
+    height: 430px;
+    width: 468px;
+    background: white;
+    /* padding: 50px; */
+    margin-left: -64px;
+    margin-bottom: -34px;
+    align-self: end;
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+    grid-template-rows: 40% 40% 20%;
+  }
+
+  .project-desc p {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: BasicGothicPro;
+    font-size: 18px;
+    color: #1d1d1d;
+  }
+
+  .project-desc a {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    font-family: BasicGothicPro;
+    font-size: 16px;
+    color: #c49a6c;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    align-self: center;
+  }
+
+  .item-c li {
+    list-style: none;
+  }
+
+  .item-c > ul {
+    align-self: center;
+    font-family: GiorgioSans;
+    font-size: 24px;
+    margin-right: 40px;
+    justify-self: end;
+  }
+
+  .item-c ul li {
+      padding: 30px 0;
+  }
+
+  .item-c ul li a {
+      text-decoration: none;
+  }
+
+ 
